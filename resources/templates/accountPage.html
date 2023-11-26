@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telebid RegForm</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/account.css">
+    <script src="https://unpkg.com/@mui/material@5.10.0/umd/material.umd.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+</head>
+<body>
+
+    <header>
+        <img src="../static/images/logo.png" alt="" id="logo">
+        <div>
+            <a id="logout">Logout</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="row">
+            <div class="field">
+                <div id="fnd">
+                    <label for="first-name" id="fnl">First name</label>
+                    <i class="material-icons" style="color: orange;" id="fne">edit</i>
+                </div>
+                <input type="text" placeholder="First name" id="fni">
+            </div>
+            <div class="field">
+                <div id="lnd">
+                    <label for="last-name" id="lnl">Last name</label>
+                    <i class="material-icons" style="color: orange;" id="lne">edit</i>
+                </div>
+                <input type="text" placeholder="Last name" id="lni">
+            </div>
+            <div class="field">
+                <div id="und">
+                    <label for="username" id="unl">Username</label>
+                    <i class="material-icons" style="color: orange;" id="une">edit</i>
+                </div>
+                <input type="text" placeholder="Username" id="uni">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="field">
+                <div id="ed">
+                    <label for="email" id="el">Email</label>
+                    <i class="material-icons" style="color: orange;" id="ee">edit</i>
+                </div>
+                <input type="text" placeholder="Email" id="ei">
+            </div>
+            <div class="field" id="pd">
+                <div>
+                    <label for="password" id="pl">Password</label>
+                    <i class="material-icons" style="color: orange;" id="pe">edit</i>
+                </div>
+                <input type="text" placeholder="Change Password" id="pi">
+            </div>
+        </div>
+
+        <div class="row">
+            <button id="apply">Apply</button>
+            <button id="delete">Delete</button>
+        </div>
+    </div>
+
+    
+    <script src="../static/scripts/Account.js "></script>
+</body>
+</html>

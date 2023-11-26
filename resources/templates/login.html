@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telebid RegForm</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css">
+</head>
+<body>
+
+    <header>
+        <img src="../static/images/logo.png" alt="" id="logo">
+        <div>
+            <a>Login</a>
+            <a id="register">Register</a>
+        </div>
+    </header>
+
+    <div id="login-page" class="login">
+        <h1>Login</h1>
+
+        <div id="input-box">
+            <input type="text" id="email-or-username" placeholder="Email or username"/>
+            <label for="username" id="email-or-username-error">Field should have value</label>
+        </div>
+
+        <div id="input-box">
+            <input type="password" id="password" placeholder="Password"/>
+            <label for="password" id="password-error">Field should have value</label>
+        </div id="input-box">
+
+        <div id="buttons">
+            <button id="submit">Login</button>
+            <button id="back">Back</button>
+        </div>
+    </div>
+
+    <script src="../static/scripts/LoginPage.js"></script>
+</body>
+</html>

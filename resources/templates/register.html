@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telebid RegForm</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/register.css">
+</head>
+<body>
+
+    <header>
+        <img src="../static/images/logo.png" alt="" id="logo">
+        <div>
+            <a id="login">Login</a>
+            <a>Register</a>
+        </div>
+    </header>
+
+    <div id="register-page" class="register">
+        <h1>Register</h1>
+
+        <div id="input-box">
+            <input type="text" id="first-name" placeholder="First name"/>
+            <label for="first-name" id="first-name-error">Field should have value</label>
+        </div>
+
+        <div id="input-box">
+            <input type="text" id="last-name" placeholder="Last name"/>
+            <label for="last-name" id="last-name-error">Field should have value</label>
+        </div>
+
+        <div id="input-box">
+            <input type="text" id="username" placeholder="Username"/>
+            <label for="username" id="username-error">Field should have value</label>
+        </div>
+
+        <div id="input-box">
+            <input type="email" id="email" placeholder="Email"/>
+            <label for="email" id="email-error">Field should have value</label>
+        </div>
+
+        <div id="input-box">
+            <input type="password" id="password" placeholder="Password"/>
+            <label for="password" id="password-error">Field should have value</label>
+        </div id="input-box">
+
+        <div id="input-box">
+            <input type="password" id="password-check" placeholder="Re-type password"/>
+            <label for="password-check" id="password-check-error">Passwords should match</label>
+        </div>
+
+        <div id="buttons">
+            <button id="submit">Register</button>
+            <button id="back">Back</button>
+        </div>
+    </div>
+
+    
+
+    <script src="../static/scripts/RegistrationPage.js"></script>
+</body>
+</html>
